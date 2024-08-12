@@ -1,0 +1,63 @@
+/* src/components/AddFlashcard.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px; /* Increased padding for more space around the form */
+    background-color: #f9f9f9; /* Light background color for the form */
+    border-radius: 10px; /* Rounded corners for the container */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for a subtle 3D effect */
+    max-width: 1000px; /* Expanded maximum width to accommodate more space */
+    margin: 20px auto; /* Centered horizontally */
+    width: 90vw; /* Responsive width to adapt to different screen sizes */
+  }
+  
+  h2 {
+    font-size: 2.5rem; /* Larger heading for emphasis */
+    color: #333;
+    margin-bottom: 20px; /* Spacing below the heading */
+  }
+  
+  form {
+    width: 100%; /* Full width to utilize the container's width */
+  }
+  
+  form div {
+    margin-bottom: 20px; /* Spacing between form elements */
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px; /* Space between label and input */
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px; /* Increased padding for more space within input fields */
+    font-size: 1.2rem; /* Larger font size for better readability */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 12px 24px; /* Larger padding for button */
+    font-size: 1.2rem; /* Larger font size for button text */
+    color: #fff;
+    background-color: #4a90e2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #357abd;
+  }
+  
+  button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+  }
+  
